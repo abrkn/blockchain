@@ -1,7 +1,7 @@
 blockchain
 =====
 
-node.js implementation of the blockchain.info websocket api.
+node.js module to access the blockchain websocket api
 
 donations
 -----

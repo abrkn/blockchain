@@ -1,8 +1,8 @@
 {
     "name": "blockchain",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "author": "Andreas Brekken <a@abrkn.com>",
-    "description": "node.js api to the blockchain websocket api",
+    "description": "node.js module to access the blockchain websocket api",
     "contributors": [
         {
             "name": "Andreas Brekken",
@@ -10,10 +10,10 @@
         }
     ],
     "bin": {
-        "blockchain": "./bin/blockchain"
+        "blockchain": "./bin/blockchain.js"
     },
     "scripts": {
-        "blockchain": "node ./bin/blockchain",
+        "blockchain": "node ./bin/blockchain.js",
         "test": "mocha"
     },
     "main": "./lib/blockchain",
@@ -29,7 +29,6 @@
     "dependencies": {
         "underscore": "1.4.x",
         "debug": "0.7.x",
-        "optimist": "0.3.x",
         "websocket": "1.0.x"
     },
     "devDependencies": {
