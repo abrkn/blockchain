@@ -1,6 +1,6 @@
 {
     "name": "blockchain",
-    "version": "0.0.3",
+    "version": "1.0.0",
     "author": "Andreas Brekken <a@abrkn.com>",
     "description": "node.js module to access the blockchain websocket api",
     "contributors": [
