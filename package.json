@@ -1,0 +1,45 @@
+{
+    "name": "blockchain",
+    "version": "0.0.1",
+    "author": "Andreas Brekken <a@abrkn.com>",
+    "description": "node.js api to the blockchain websocket api",
+    "contributors": [
+        {
+            "name": "Andreas Brekken",
+            "email": "a@abrkn.com"
+        }
+    ],
+    "bin": {
+        "blockchain": "./bin/blockchain"
+    },
+    "scripts": {
+        "blockchain": "node ./bin/blockchain",
+        "test": "mocha"
+    },
+    "main": {
+        "./lib/blockchain"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/abrkn/blockchain"
+    },
+    "keywords": [
+        "blockchain",
+        "bitcoin",
+        "api"
+    ],
+    "dependencies": {
+        "underscore": "1.4.x",
+        "debug": "0.7.x",
+        "optimist": "0.3.x",
+        "websocket": "1.0.x"
+    },
+    "devDependencies": {
+        "mocha": "1.6.x",
+        "expect.js": "0.2.x"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">=0.6"
+    }
+}
