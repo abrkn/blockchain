@@ -38,7 +38,7 @@ describe('blockchain', function() {
             var blockchain = new Blockchain();
 
             _.each(popular, function(addr) {
-                blockchain.subscribe('1dice8EMZmqKvrGE4Qc9bUFf9PX3xaYDp', function(tran) {
+                blockchain.subscribe(addr, function(tran) {
                     if (!done) return;
                     blockchain.close();
                     done();
