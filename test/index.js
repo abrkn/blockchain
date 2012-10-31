@@ -33,7 +33,7 @@ _ = require('underscore')
 describe('blockchain', function() {
     describe('subscribe', function() {
         it('should see transactions on a popular address', function(done) {
-            this.timeout(240 * 1000);
+            this.timeout(10 * 60 * 1000);
 
             var blockchain = new Blockchain();
 
