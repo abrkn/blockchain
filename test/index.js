@@ -1,3 +1,4 @@
+process.env.DEBUG = '.*';
 var Blockchain = require('../lib/blockchain.js')
 , expect = require('expect.js')
 _ = require('underscore')
