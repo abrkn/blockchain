@@ -1,42 +1,42 @@
 {
-    "name": "blockchain",
-    "version": "1.0.5",
-    "author": "Andreas Brekken <a@abrkn.com>",
-    "description": "node.js module to access the blockchain websocket api",
-    "contributors": [
-        {
-            "name": "Andreas Brekken",
-            "email": "a@abrkn.com"
-        }
-    ],
-    "bin": {
-        "blockchain": "./bin/blockchain.js"
-    },
-    "scripts": {
-        "blockchain": "node ./bin/blockchain.js",
-        "test": "mocha"
-    },
-    "main": "./lib/blockchain",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/abrkn/blockchain"
-    },
-    "keywords": [
-        "blockchain",
-        "bitcoin",
-        "api"
-    ],
-    "dependencies": {
-        "underscore": "1.4.x",
-        "debug": "0.7.x",
-        "websocket": "1.0.x"
-    },
-    "devDependencies": {
-        "mocha": "1.6.x",
-        "expect.js": "0.2.x"
-    },
-    "license": "MIT",
-    "engines": {
-        "node": ">=0.6"
+  "name": "blockchain",
+  "version": "1.0.6",
+  "author": "Andreas Brekken <a@abrkn.com>",
+  "description": "node.js module to access the blockchain websocket api",
+  "contributors": [
+    {
+      "name": "Andreas Brekken",
+      "email": "a@abrkn.com"
     }
+  ],
+  "bin": {
+    "blockchain": "./bin/blockchain.js"
+  },
+  "scripts": {
+    "blockchain": "node ./bin/blockchain.js",
+    "test": "mocha"
+  },
+  "main": "./lib/blockchain",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abrkn/blockchain"
+  },
+  "keywords": [
+    "blockchain",
+    "bitcoin",
+    "api"
+  ],
+  "dependencies": {
+    "underscore": "1.4.x",
+    "debug": "0.7.x",
+    "websocket": "1.0.x"
+  },
+  "devDependencies": {
+    "mocha": "1.6.x",
+    "expect.js": "0.2.x"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
 }
