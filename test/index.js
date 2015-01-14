@@ -1,7 +1,7 @@
 process.env.DEBUG = '.*';
 var Blockchain = require('../lib/blockchain.js')
 , expect = require('expect.js')
-_ = require('underscore')
+, _ = require('underscore')
 , popular = require('./popular.json');
 
 describe('blockchain', function() {
