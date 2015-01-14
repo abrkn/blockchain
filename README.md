@@ -37,3 +37,8 @@ notes
 
 - subscriptions persist
 - see tests for example
+
+license
+---
+
+ISC

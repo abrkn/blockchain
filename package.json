@@ -35,7 +35,7 @@
     "mocha": "1.6.x",
     "expect.js": "0.2.x"
   },
-  "license": "MIT",
+  "license": "ISC",
   "engines": {
     "node": ">=0.6"
   }
